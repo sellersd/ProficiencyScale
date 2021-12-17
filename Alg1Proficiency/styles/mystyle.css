@@ -1,0 +1,58 @@
+html {
+	background-color: #000000;
+	color: #0fff0f;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #000000;
+  color: #0f990f;
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+.content {
+	margin-left: 15%;
+	
+}
+.problems {
+	font-size: 30;
+}
+
+.problems li {
+	padding: 5;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+td a {
+    display:block;
+    width:100%;
+	color:#0f990f;
+}
+
+a:visited {
+	color=#ffffff;
+}
+
+a:hover {
+	background-color:#111111;
+	color:#0fff0f;
+}
+
+tr:nth-child(odd){
+	background-color: #222222;
+	}
+tr:nth-child(even) {
+	background-color: #000000;
+	}
